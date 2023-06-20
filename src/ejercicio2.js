@@ -1,7 +1,10 @@
-class Contador {
-  // Inserte el código aquí
-}
+class contador {
+  valor= 0;
 
-// Inserte el código aquí
+  siguiente() {
+    this.valor += 1;
+  }
+}
+const instancia = new contador();
 
 export { instancia }
