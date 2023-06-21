@@ -20,8 +20,9 @@ function sumar(valor1, valor2) {
 return (sumar= valor1 + valor2);
 }
 
-let resultado= sumar[2,4,6,8].reduce(sumar);
+let resultado= [2,4,6,8].reduce(sumar);
 console.log(resultado);
+
 
 let saludar = (nombre = "desconocido") => {
 console.log ("Hola", nombre);
