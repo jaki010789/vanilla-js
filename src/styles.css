@@ -1,0 +1,50 @@
+body {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 390px;
+  background: url("https://th.bing.com/th/id/R.fd4e070a45a61e0098621966768206c8?rik=zeHQM340Tp3lZA&riu=http%3a%2f%2fwww.defondos.com%2fbulkupload%2fde-abstractos%2fAbstractos%2fPolen+Espacial_1024.jpg&ehk=KW5aWJ90doyD1HLIBr4ccufqrPWndZOjlQ8KMxc%2bGDU%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 200px;
+}
+
+.box {
+  margin: 10px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.value {
+  background-color: rgb(123, 38, 248, 0.8);
+  width: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: xx-large;
+  border-radius: 5px, 5px, 0 0;
+}
+
+.text {
+  background-color: rgb(91, 160, 137, 0.8);
+  width: 60px;
+  height: 20px;
+}
+
+#ampm {
+  background-color: rgb(91, 160, 137, 0.8);
+  width: 65px;
+  height: 28px;
+  border-radius: 3px;
+  margin-top: 68px;
+}
